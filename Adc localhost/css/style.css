@@ -94,7 +94,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   margin-bottom:16px;
 }
 .eyebrow::before{
-  content:''; width:22px; height:2px; background:var(--grad-scan);
+  display:none;
 }
 .eyebrow.on-dark{ color:var(--solar); }
 
@@ -478,10 +478,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .testimonial .quote-mark{ font-family:var(--font-display); font-size:48px; color:var(--line); line-height:1; margin-bottom:8px; }
 .testimonial p{ font-size:15px; color:var(--text-strong); margin-bottom:22px; }
 .testimonial .who{ display:flex; align-items:center; gap:12px; }
-.testimonial .avatar{ width:42px; height:42px; border-radius:50%; background:var(--grad-scan); display:flex; align-items:center; justify-content:center; color:#fff; font-family:var(--font-display); font-weight:700; font-size:14px; }
-.testimonial .who strong{ display:block; font-size:14px; color:var(--text-strong); }
-.testimonial .who span{ font-size:12.5px; font-family:var(--font-mono); color:var(--text-body); }
-
+  .testimonial .avatar{ width:42px; height:42px; border-radius:50%; background:var(--lens); display:flex; align-items:center; justify-content:center; color:#fff; font-family:var(--font-display); font-weight:700; font-size:14px; }
 /* ---------- CTA banner ---------- */
 .cta-banner{
   position:relative; background:var(--grad-dark); padding:80px 0; overflow:hidden; color:#fff;
@@ -620,7 +617,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .form-status.ok{ color:var(--lens-dark); }
 
 .map-embed{ border:1px solid var(--line-dark); aspect-ratio:16/7; background:var(--ink); position:relative; overflow:hidden; margin-top:16px; }
-.map-embed svg{ width:100%; height:100%; }
+  .map-embed iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; display:block; }
 
 /* ---------- Counter reveal ---------- */
 [data-count]{ display:inline-block; }
