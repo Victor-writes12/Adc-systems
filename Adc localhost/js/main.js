@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initFAQ();
   initGallery();
   initContactForm();
+  initCookieConsent();
   initYear();
 });
 
@@ -288,4 +289,43 @@ function initYear() {
   document.querySelectorAll('.js-year').forEach(el => {
     el.textContent = new Date().getFullYear();
   });
+}
+
+/* ---------- Cookie consent ---------- */
+function initCookieConsent() {
+  const storageKey = 'adcCookieConsent';
+  const stored = localStorage.getItem(storageKey);
+  document.documentElement.setAttribute('data-cookie-consent', stored || 'unknown');
+  if (stored) return;
+
+  const banner = document.createElement('div');
+  banner.className = 'cookie-banner';
+  banner.innerHTML = `
+    <div class="cookie-banner-copy">
+      <p class="cookie-banner-title">We respect your privacy.</p>
+      <p>ADC Systems uses essential cookies and local storage to keep this site secure, fast and easy to use. Accept cookies for the best experience, or reject non-essential cookies while still using the site.</p>
+    </div>
+    <div class="cookie-banner-actions">
+      <a href="privacy-policy.html" class="cookie-banner-link">Privacy Policy</a>
+      <div class="cookie-banner-buttons">
+        <button type="button" class="btn btn-outline" id="rejectCookies">Reject non-essential cookies</button>
+        <button type="button" class="btn btn-primary" id="acceptCookies">Accept cookies</button>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(banner);
+  banner.querySelector('#acceptCookies').addEventListener('click', () => {
+    setCookieConsent(storageKey, 'accepted');
+    banner.remove();
+  });
+  banner.querySelector('#rejectCookies').addEventListener('click', () => {
+    setCookieConsent(storageKey, 'rejected');
+    banner.remove();
+  });
+}
+
+function setCookieConsent(key, value) {
+  localStorage.setItem(key, value);
+  document.documentElement.setAttribute('data-cookie-consent', value);
 }
