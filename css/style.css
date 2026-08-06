@@ -435,7 +435,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .location-list{ display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:48px; }
 .location-card{ border:1px solid var(--line-dark); padding:22px; background:var(--charcoal-2); }
 .location-card h4{ color:#fff; font-size:16px; margin-bottom:8px; display:flex; align-items:center; gap:8px; }
-.location-card h4::before{ content:''; width:8px; height:8px; background:var(--lens); border-radius:50%; }
+.location-card h4::before{ content:''; width:8px; height:8px; background:var(--green); border-radius:50%; }
 .location-card p{ font-size:13.8px; color:var(--text-inverse-dim); font-weight:500; line-height:1.65; }
 
 /* ---------- Project gallery ---------- */
@@ -517,7 +517,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .testimonial .quote-mark{ font-family:var(--font-display); font-size:48px; color:var(--line); line-height:1; margin-bottom:8px; }
 .testimonial p{ font-size:15px; color:var(--text-strong); margin-bottom:22px; }
 .testimonial .who{ display:flex; align-items:center; gap:12px; }
-  .testimonial .avatar{ width:42px; height:42px; border-radius:50%; background:var(--lens); display:flex; align-items:center; justify-content:center; color:#fff; font-family:var(--font-display); font-weight:700; font-size:14px; }
+  .testimonial .avatar{ width:42px; height:42px; border-radius:50%; background:var(--green); display:flex; align-items:center; justify-content:center; color:#fff; font-family:var(--font-display); font-weight:700; font-size:14px; }
 /* ---------- CTA banner ---------- */
 .cta-banner{
   position:relative; background:var(--grad-dark); padding:80px 0; overflow:hidden; color:#fff;
@@ -545,7 +545,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .footer-col ul li a{ font-size:14px; transition:color var(--fast), padding-left var(--fast); display:inline-block; }
 .footer-col ul li a:hover{ color:var(--lens); padding-left:4px; }
 .footer-contact li{ font-size:14px; margin-bottom:14px; display:flex; gap:10px; }
-.footer-contact svg{ width:16px; height:16px; flex:0 0 auto; margin-top:2px; color:var(--lens); }
+.footer-contact svg{ width:16px; height:16px; flex:0 0 auto; margin-top:2px; color:var(--green); }
 .footer-bottom{ display:flex; justify-content:space-between; align-items:center; padding:26px 0; font-size:13px; flex-wrap:wrap; gap:12px; }
 .footer-bottom a{ color:var(--text-inverse-dim); }
 .footer-bottom a:hover{ color:var(--lens); }
