@@ -332,7 +332,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   font-family:var(--font-mono); font-size:13px; letter-spacing:.08em; text-transform:uppercase;
   color:var(--text-inverse-dim); white-space:nowrap; display:flex; align-items:center; gap:14px;
 }
-.trust-track span::before{ content:''; width:6px; height:6px; border-radius:50%; background:var(--solar); }
+.trust-track span::before{ content:''; width:6px; height:6px; border-radius:50%; background:var(--green); }
 @keyframes marquee{ to{ transform:translateX(-50%); } }
 
 /* ---------- Stats ---------- */
