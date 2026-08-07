@@ -95,7 +95,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 /* ---------- Eyebrow / Section labels ---------- */
 .eyebrow{
   display:inline-flex; align-items:center; gap:10px;
-  font-family:var(--font-mono);
+  font-family:var(--Space Grotesk);
   font-size:12px; letter-spacing:.14em; text-transform:uppercase;
   color:var(--lens-dark);
   margin-bottom:16px;
