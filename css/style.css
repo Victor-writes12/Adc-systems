@@ -80,11 +80,11 @@ h1,h2,h3,h4{ font-family:var(--font-display); color:var(--text-strong); line-hei
 
 .container{ max-width:var(--container); margin:0 auto; padding:0 32px; }
 
-::selection{ background:var(--green); color:#fff; }
+::selection{ background:var(--lens); color:#fff; }
 
 /* visible keyboard focus (accessibility) */
 a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible{
-  outline:2px solid var(--green);
+  outline:2px solid var(--lens);
   outline-offset:3px;
 }
 
