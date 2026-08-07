@@ -637,7 +637,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .contact-info-card p{ margin-bottom:32px; }
 .contact-info-list li{ display:flex; gap:14px; padding:16px 0; border-top:1px solid var(--line-dark); }
 .contact-info-list li:first-child{ border-top:none; }
-.contact-info-list svg{ width:18px; height:18px; color:var(--lens); flex:0 0 auto; margin-top:2px; }
+.contact-info-list svg{ width:18px; height:18px; color:var(--green); flex:0 0 auto; margin-top:2px; }
 .contact-info-list strong{ display:block; font-size:14px; color:#fff; margin-bottom:3px; }
 .contact-info-list span{ font-size:13.5px; color:var(--text-inverse-dim); }
 
