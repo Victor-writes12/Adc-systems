@@ -97,7 +97,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   display:inline-flex; align-items:center; gap:10px;
   font-family:var(--font-display Space Grotesk);
   font-size:12px; letter-spacing:.14em; text-transform:uppercase;
-  color:var(--green-light);
+  color:var(--text-body);
   margin-bottom:16px;
 }
 .eyebrow::before{
