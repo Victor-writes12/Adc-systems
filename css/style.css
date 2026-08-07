@@ -84,7 +84,7 @@ h1,h2,h3,h4{ font-family:var(--font-display); color:var(--text-strong); line-hei
 
 /* visible keyboard focus (accessibility) */
 a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible{
-  outline:2px solid var(--lens);
+  outline:2px solid var(--green-light);
   outline-offset:3px;
 }
 
