@@ -608,7 +608,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .timeline-item{ position:relative; padding-bottom:44px; }
 .timeline-item:last-child{ padding-bottom:0; }
 .timeline-item::before{ content:''; position:absolute; left:-32px; top:4px; width:11px; height:11px; border-radius:50%; background:var(--green); box-shadow:0 0 0 4px rgba(6, 194, 40, 0.12); }
-.timeline-item .yr{ font-family:var(--font-mono); font-size:12px; color:var(--solar-dark); margin-bottom:6px; display:block; }
+.timeline-item .yr{ font-family:var(--font-display Space Grotesk); font-size:13px; color:var(--solar-dark); margin-bottom:6px; display:block; }
 .timeline-item h4{ font-size:17px; margin-bottom:8px; color:#fff; }
 .timeline-item p{ font-size:14px; }
 
