@@ -206,9 +206,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 .header-phone{
   display:flex; flex-direction:column; align-items:flex-end;
-  font-family:var(--font-mono); font-size:12px; color:var(--text-inverse-dim);
+  font-family:var(--font-Space Grotesk); font-size:12px; color:var(--text-inverse-dim);
 }
-.header-phone strong{ font-family:var(--font-body); font-size:14.5px; color:#fff; font-weight:600; }
+.header-phone strong{ font-family:var(--font-body); font-size:14px; color:#fff; font-weight:600; }
 .header-phone span{ color:#c7c8cc; }
 
 .nav-toggle{ display:none; width:26px; height:20px; position:relative; z-index:2; }
@@ -224,10 +224,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .btn{
   display:inline-flex; align-items:center; gap:10px;
   padding:14px 28px; font-size:14.5px; font-weight:600;
-  border-radius:2px; transition:transform var(--fast) var(--ease), box-shadow var(--fast) var(--ease), background var(--fast) var(--ease), color var(--fast) var(--ease);
+  border-radius:10px; transition:transform var(--fast) var(--ease), box-shadow var(--fast) var(--ease), background var(--fast) var(--ease), color var(--fast) var(--ease);
   white-space:nowrap;
 }
-  .btn-primary{ background:var(--lens); color:#fff; }
+  .btn-primary{ background:var(--brand-red); color:#fff; }
   .btn-primary:hover{ background:var(--lens-dark); transform:translateY(-2px); box-shadow:0 10px 24px rgba(11,51,91,.25); }
   .btn-solar{ background:var(--solar); color:#fff; }
   .btn-solar:hover{ background:var(--solar-dark); transform:translateY(-2px); box-shadow:0 10px 24px rgba(215,38,49,.25); }
