@@ -1,8 +1,19 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://victor-writes12.github.io/Adc-systems/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://adcsystemslimited.com/</loc>
+  </url>
+  <url>
+    <loc>https://adcsystemslimited.com/about.html</loc>
+  </url>
+  <url>
+    <loc>https://adcsystemslimited.com/services.html</loc>
+  </url>
+  <url>
+    <loc>https://adcsystemslimited.com/portfolio.html</loc>
+  </url>
+  <url>
+    <loc>https://adcsystemslimited.com/contact.html</loc>
   </url>
 </urlset>
